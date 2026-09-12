@@ -1,0 +1,36 @@
+# Build artifacts
+
+*.o
+*.a
+*.so
+*.out
+su2_sim
+benchmark
+build/
+bin/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated results
+results/raw/*
+results/processed/*
+results/figures/*
+
+# Keep directory structure
+!results/raw/.gitkeep
+!results/processed/.gitkeep
+!results/figures/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+EOF
